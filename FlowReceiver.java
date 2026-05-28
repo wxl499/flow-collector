@@ -101,7 +101,7 @@ public class FlowReceiver {
     private static final int PORT = 9999;
     private static final String CLICKHOUSE_URL = "jdbc:clickhouse:http://192.168.104.99:8123/network_analytics";
     private static final String CLICKHOUSE_USER = "default";
-    private static final String CLICKHOUSE_PASSWORD = "Qaz313498~~";
+    private static final String CLICKHOUSE_PASSWORD = "";
 
     // 使用有界队列避免内存溢出，并设置合理的容量
     private BlockingQueue<FlowRecord> flowQueue = new LinkedBlockingQueue<>(10000);
